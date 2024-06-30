@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  box-sizing: none;
+  padding: 0
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  font-size: 14px;
+  font-weight: 400;
+  overflow-y: scroll
+}
+
+
