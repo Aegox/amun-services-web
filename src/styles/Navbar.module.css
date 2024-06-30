@@ -3,7 +3,8 @@
   justify-content: center;
   position: fixed;
   width: 100%;
-  z-index: 101
+  z-index: 102;
+  transition: 0.3s background-color ease
 }
 
 .nav {
@@ -13,6 +14,18 @@
   justify-content: space-between;
   align-items: center;
   color: white;
+  transition: 0.3s background-color ease
+}
+
+.navScrolled {
+  background-color: white;
+  box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
+  color: black;
+  transition: 0.3s background-color ease
+}
+
+.navScrolled2 {
+  color: black;
 }
 
 .nav ul {
@@ -20,15 +33,31 @@
   list-style: none
 }
 
-.nav ul li {
-  padding: 6px 22px 6px 22px
+.section {
+  padding: 6px 22px 6px 22px;
+  transition: 0.3s color ease
 }
 
-.nav ul li:hover {
+.section:hover {
   color: #76abae;
   cursor: pointer;
+  transition: 0.3s color ease
 }
 
 .nav img {
   height: 40px
 }
+
+.sectionActive {
+  color: white;
+  background-color: #4e8c97;
+  border-radius: 30px;
+  padding: 6px 22px 6px 22px;
+
+}
+
+.sectionActive:hover {
+  cursor: pointer
+}
+
+

@@ -9,7 +9,12 @@
   width: 100%;
   overflow: hidden;
   filter: brightness(50%);
-  z-index: 100
+  z-index: 100;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .container article {
@@ -40,7 +45,16 @@
   border: none;
   font-size: 14px;
   color: white;
-  margin: 25px 25px 0px 0px
+  margin: 25px 25px 0px 0px;
+  transition: 0.3s background-color ease
 }
+
+.container button:hover {
+  background-color: #4e8c97;
+  transition: 0.4s background-color ease;
+  cursor: pointer
+}
+
+
 
 

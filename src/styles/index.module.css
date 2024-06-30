@@ -9,7 +9,8 @@ body {
   color: #333;
   font-size: 14px;
   font-weight: 400;
-  overflow-y: scroll
+  overflow-y: scroll;
+  height: 200vh
 }
 
 
