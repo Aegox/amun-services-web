@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  box-sizing: none;
+  box-sizing: border-box;
   padding: 0
 }
 
@@ -10,7 +10,6 @@ body {
   font-size: 14px;
   font-weight: 400;
   overflow-y: scroll;
-  height: 200vh
 }
 
 
