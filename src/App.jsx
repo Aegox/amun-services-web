@@ -2,6 +2,7 @@ import { useState } from 'react';
 import NavBar from './components/NavBar.jsx';
 import Home from './components/Home.jsx';
 import Services from './components/Services.jsx';
+import Features from './components/Features.jsx';
 import styles from './styles/index.module.css';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <NavBar/>
       <Home/>
       <Services/>
+      <Features/>
     </main>
   )
 }
