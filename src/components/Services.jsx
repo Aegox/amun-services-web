@@ -1,5 +1,8 @@
 import styles from '../styles/Services.module.css';
 import { useState } from 'react';
+import Pencil from '../icons/Pencil.jsx'
+import Code from '../icons/Code.jsx'
+import Cool from '../icons/Cool.jsx'
 
 function Services () {
   return (
@@ -16,18 +19,24 @@ Lorem ipsum dolor sit amet, consectetur.
         </h3>
       </article>
       <section>
-        <div>
-          <i class="lni lni-pencil"></i>
+        <div className={styles.containerSvg}>
+          <div className={styles.iconDiv}>
+            <Pencil color="#000000" width="30px" height="30px"/>
+          </div>
           <h3>Content Writing</h3>
           <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</h4>
         </div>
-        <div>
-          <i class="lni lni-code"></i>
+        <div className={styles.containerSvg}>
+          <div className={styles.iconDiv}>
+            <Code color="#000000" width="30px" height="30px"/>
+          </div>
           <h3>Web Development</h3>
           <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</h4>
         </div>
-        <div>
-          <i class="lni lni-cool"></i>
+        <div className={styles.containerSvg}>
+          <div className={styles.iconDiv}>
+            <Cool color="#000000" width="30px" height="30px"/>
+          </div>
           <h3>Business Consultancy</h3>
           <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</h4>
         </div>

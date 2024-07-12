@@ -14,7 +14,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 8px
+  gap: 8px;
+  margin-bottom: 20px
 }
 
 .brand h1 {
@@ -42,5 +43,55 @@
   display: flex;
   justify-content: center;
   align-self: center;
-  width: 960px
+  width: 1200px;
+  gap: 60px
+}
+
+.containerSvg {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px
+  
+}
+
+.containerSvg:hover {
+  .iconDiv svg {
+    fill: white
+  }
+  .iconDiv {
+    background-color:  #4e8c97;
+  }
+}
+
+.iconDiv svg {
+  fill: #4e8c97;
+  width: 25px;
+  height: 25px;
+  transition: fill 0.3s ease
+}
+
+.iconDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 58px;
+  border-radius: 100%;
+  border: solid 0.1px #f1f1f1;
+  transition: background-color 0.3s ease;
+  margin-bottom: 20px
+}
+
+.containerSvg h3 {
+  font-size: 19px;
+  letter-spacing: 1px
+
+}
+
+.containerSvg h4 {
+  text-align: center;
+  font-weight: normal;
+  line-height: 25px
 }
