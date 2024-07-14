@@ -1,0 +1,14 @@
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 326px;
+  overflow: hidden
+}
+
+.main img {
+           background-size: 200%; /* This zooms the image */
+            background-position: var(--bg-pos-x, 50%) var(--bg-pos-y, 50%);
+            background-repeat: no-repeat;
+  
+}
