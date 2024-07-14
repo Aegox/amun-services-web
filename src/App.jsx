@@ -7,6 +7,7 @@ import Portfolio from './components/Portfolio.jsx';
 import Watch from './components/Watch.jsx';
 import Prices from './components/Prices.jsx';
 import Counts from './components/Counts.jsx';
+import Team from './components/Team.jsx';
 import styles from './styles/index.module.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Watch/>
       <Prices/>
       <Counts/>
+      <Team/>
     </main>
   )
 }
