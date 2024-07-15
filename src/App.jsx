@@ -8,6 +8,7 @@ import Watch from './components/Watch.jsx';
 import Prices from './components/Prices.jsx';
 import Counts from './components/Counts.jsx';
 import Team from './components/Team.jsx';
+import Comentarys from './components/Comentarys.jsx';
 import styles from './styles/index.module.css';
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Prices/>
       <Counts/>
       <Team/>
+      <Comentarys/>
     </main>
   )
 }

@@ -1,0 +1,86 @@
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 450px;
+  padding: 80px 80px 80px 80px;
+  background-image: url("../assets/testimonial-bg.jpg");
+  overflow: hidden
+}
+
+.main ul {
+  display: flex;
+  position: relative;
+  margin-left: 93%;
+  animation: 3s alternate slider;
+  animation-iteration-count: 2s;
+  transition: all 3s ease
+  
+}
+
+@keyframes slider {
+  from {
+    margin-left: -93%
+  }
+
+  to {
+    margin-left: 93%
+  }
+}
+
+.main ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 555px;
+  height: 251.5px;
+  color: white;
+}
+
+.containerImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  border: 2px solid white
+}
+
+.containerImg img {
+  width: 100%;
+  border-radius: 100%
+}
+
+.main ul li p {
+  padding: 36px 10px 30px;
+  text-align: center
+}
+
+
+.main ul li h3 {
+  padding: 0px 0px 8px
+}
+
+
+.main ul li span {
+  color: #999999
+}
+
+.nav {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px
+}
+
+.point {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background-color: #4e7c97;
+  transition:  all 0.1 ease
+}
+
+.point:hover {
+  background-color: #4e8c97; 
+  cursor: pointer
+}

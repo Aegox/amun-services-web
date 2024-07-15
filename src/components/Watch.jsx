@@ -2,6 +2,8 @@ import styles from '../styles/Watch.module.css'
 import Play from '../icons/Play.jsx'
 
 function Watch () {
+  
+
   return (
     <main className={styles.main}>
       <h2>WATCH OUR INTRO VIDEO </h2>
@@ -9,6 +11,10 @@ function Watch () {
       <div className={styles.divIcon}>
         <Play color="white" width="30px" height="30px" />
       </div>
+      <nav>
+        <div className={styles.point}></div>
+        <div className={styles.point}></div>
+      </nav>
     </main>
 
   )
