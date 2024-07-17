@@ -45,7 +45,8 @@
 
 .container article {
   width: 350px;
-  height: 450px
+  height: 450px;
+  cursor: default
 }
 
 .containerImg {
@@ -63,8 +64,9 @@
   margin-bottom: 20px;
   display: flex;
   list-style: none;
-  gap: 20px;
-  color: #999999
+  color: #999999;
+  width: 100%;
+  gap: 10px
 }
 
 .container article h4 {
@@ -76,12 +78,38 @@
 
 
 .container article p {
-  margin-bottom: 20px
+  margin-bottom: 20px;
+  line-height: 26px
 }
 
 .more {
   display: flex;
+  align-items: center;
   list-style: none;
-  gap: 20px;
+  gap: 5px;
   color: #999999;
+  transition: all 0.3s ease;
 }
+
+.stats li {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.more svg , .stats li svg {
+  transition: all 0.3s ease;
+}
+
+.stats li:nth-child(2):hover , .more:hover {
+  color:  #4e8c97;
+  cursor: pointer;
+
+  svg {
+    fill:  #4e8c97;
+  }
+
+}
+
+
