@@ -10,6 +10,7 @@ import Counts from './components/Counts.jsx';
 import Team from './components/Team.jsx';
 import Comentarys from './components/Comentarys.jsx';
 import Blog from './components/Blog.jsx';
+import Contact from './components/Contact.jsx';
 import styles from './styles/index.module.css';
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Team/>
       <Comentarys/>
       <Blog/>
+      <Contact/>
     </main>
   )
 }

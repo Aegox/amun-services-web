@@ -24,7 +24,7 @@ Lorem ipsum dolor sit amet, consectetur.</p>
           <div className={styles.description}>
             <h4>Diego Amundaray</h4>
             <p>Fundador & CEO</p>
-            <ul>
+            <ul className={styles.icons}>
               <li className={styles.facebook}><Facebook fill="#4e8c97" width="13px" height="13px" /></li>
               <li className={styles.x}><X fill="#4e8c97" width="13px" height="13px" /></li>
               <li className={styles.gmail}><Gmail fill="#4e8c97" width="18px" height="18px" /></li>
