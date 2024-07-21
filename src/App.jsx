@@ -14,6 +14,7 @@ import Contact from './components/Contact.jsx';
 import styles from './styles/index.module.css';
 
 function App() {
+
   return (
     <main className={styles.main}>
       <NavBar/>

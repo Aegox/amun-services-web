@@ -24,10 +24,14 @@
   transition: 0.3s background-color ease
 }
 
-.navScrolled2 {
-  color: black;
+
+.navScrolled2 ul li a:visited , .navScrolled2 ul li a:active{
+  color: white
 }
 
+.navScrolled .section:active , .navScrolled .section:visited , .navScrolled .section {
+  color: black
+}
 
 .nav ul {
   display: flex;
@@ -40,17 +44,19 @@
 }
 
 
-.section a  , .section a:visited , .section a:active{
+.section , .section:visited , .section:active{
   text-decoration: none;
   color: white;
 
 }
 
-.sectionActive a {
+.sectionActive {
   text-decoration: none;
   color: white;
 
 }
+
+
 
 .section:hover {
   color: #76abae;
@@ -74,5 +80,6 @@
 .sectionActive:hover {
   cursor: pointer
 }
+
 
 

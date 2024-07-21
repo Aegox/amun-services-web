@@ -6,7 +6,22 @@ function NavBar() {
   const sections = ["Home", "Services", "Features", "Works", "Pricing", "Team", "Blog", "Contact"];
   const [options, setOptions] = useState("Home");
   const [ locationNav , setLocationNav ] = useState({ top: 0, bottom: 0 });
+
   const navRef = useRef(null);
+  
+      const links = document.querySelectorAll('a[href^="#"]');
+    links.forEach(link => {
+        const target = document.querySelector(link.getAttribute('href'));
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            setOptions(e.target.innerHTML)
+            let offset = target.offsetTop - 80;
+            window.scrollTo({
+                top: offset,
+                behavior: 'smooth'
+            });
+        });
+    });
 
   const handleLocation = () => {
     if (navRef.current) {
@@ -30,16 +45,14 @@ function NavBar() {
       window.removeEventListener('resize', handleLocation);
     };
   }, []);
-  console.log(locationNav, window.location)
 
   return (
     <main className={`${styles["main"]} ${locationNav.top > 0 ? styles["navScrolled"] : ""}`}>
       <nav ref={navRef} className={`${styles["nav"]} ${locationNav.top > 0 ? styles["navScrolled2"] : ""}` }>
         <img src={logo} alt='' />
         <ul>              
-          <li className={window.location.hash.slice(1) == "" ? styles.sectionActive : styles.section}><a href={""}>Home</a></li>
-          {sections.slice(1).map((item, index) => (
-              <li key={index} className={window.location.hash.slice(1) == item ? styles.sectionActive : styles.section}><a role="span" href={"#" + item}>{item}</a></li>
+          {sections.map((item, index) => (
+              <li key={index} ><a className={options == item ? styles.sectionActive : styles.section}  href={`#${item}`}>{item}</a></li>
           ))}
         </ul>
       </nav>

@@ -3,7 +3,7 @@ import styles from '../styles/Home.module.css'
 
 function Home () {
   return (
-    <main className={styles.container}>
+    <main id="Home" className={styles.container}>
       <article>
         <span>
           Mate - Free Parallax Website Template
