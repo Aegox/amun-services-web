@@ -31,7 +31,19 @@
 .container span:first-child {
   font-size: 42px;
   font-weight: bold;
-  letter-spacing: 1px
+  letter-spacing: 1px;
+  animation: slideDown 0.9s ease-in-out
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .container span:nth-child(2) {
@@ -46,7 +58,19 @@
   font-size: 14px;
   color: white;
   margin: 25px 25px 0px 0px;
-  transition: 0.3s background-color ease
+  transition: 0.3s background-color ease;
+  animation: slideUp 0.9s ease-in-out
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .container button:hover {
