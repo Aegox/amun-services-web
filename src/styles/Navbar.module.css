@@ -28,20 +28,34 @@
   color: black;
 }
 
+
 .nav ul {
   display: flex;
-  list-style: none
+  list-style: none;
 }
 
 .section {
   padding: 6px 22px 6px 22px;
-  transition: 0.3s color ease
+  transition: 0.3s all ease;
+}
+
+
+.section a  , .section a:visited , .section a:active{
+  text-decoration: none;
+  color: white;
+
+}
+
+.sectionActive a {
+  text-decoration: none;
+  color: white;
+
 }
 
 .section:hover {
   color: #76abae;
   cursor: pointer;
-  transition: 0.3s color ease
+  transition: 0.3s all ease
 }
 
 .nav img {
@@ -53,6 +67,7 @@
   background-color: #4e8c97;
   border-radius: 30px;
   padding: 6px 22px 6px 22px;
+  transition: 0.3s  all ease
 
 }
 

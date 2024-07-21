@@ -155,7 +155,12 @@
 
 .foot p {
   width: 50%;
-  text-align: right
+  text-align: right;
+}
+
+.foot a:hover {
+  color: #4e8c97;
+  cursor: pointer;
 }
 
 

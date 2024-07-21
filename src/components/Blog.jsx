@@ -8,7 +8,7 @@ import Comment from '../icons/Comment.jsx'
 
 function Blog () {
   return (
-    <main className={styles.main}>
+    <main id="Blog" className={styles.main}>
       <header className={styles.head}>
         <h2>RECENT BLOG</h2> 
         <div className={styles.line}></div> 

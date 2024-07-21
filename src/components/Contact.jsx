@@ -7,7 +7,7 @@ import Linkedin from '../icons/Linkedin.jsx'
 
 function Contact () {
   return (
-    <main className={styles.main}>
+    <main id="Contact" className={styles.main}>
       <div className={styles.container}>
       <section className={styles.information}>
         <h3>Contact With us</h3>

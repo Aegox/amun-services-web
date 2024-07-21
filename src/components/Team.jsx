@@ -9,7 +9,7 @@ import Linkedin from '../icons/Linkedin.jsx'
 
 function Team () {
   return (
-    <main className={styles.main}>
+    <main id="Team" className={styles.main}>
       <header className={styles.head}>
         <h2>OUR TEAM</h2>
         <div className={styles.line}></div>

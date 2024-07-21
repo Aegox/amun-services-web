@@ -6,7 +6,7 @@ import Cool from '../icons/Cool.jsx'
 
 function Services () {
   return (
-    <main className={styles.main}>
+    <main id="Services" className={styles.main}>
       <article className={styles.brand}>
         <h1>
           OUR SERVICES

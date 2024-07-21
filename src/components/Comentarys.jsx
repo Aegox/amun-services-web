@@ -6,7 +6,7 @@ import customer4 from '../assets/customer4.jpg'
 
 function Comentarys () {
   return (
-    <main className={styles.main}>
+    <main id="Comentarys" className={styles.main}>
       <ul>
         <li>
           <div className={styles.containerImg}>

@@ -5,7 +5,7 @@ function Watch () {
   
 
   return (
-    <main className={styles.main}>
+    <main id="Watch" className={styles.main}>
       <h2>WATCH OUR INTRO VIDEO </h2>
       <p>Aliquam vestibulum cursus felis. In iaculis iaculis sapien ac condimentum. Vestibulum congue posuere lacus, id tincidunt nisi porta sit amet. Suspendisse et sapien varius, pellentesque dui non, semper orci.</p>
       <div className={styles.divIcon}>

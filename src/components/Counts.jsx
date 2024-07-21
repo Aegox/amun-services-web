@@ -7,7 +7,7 @@ import User from '../icons/User.jsx'
 
 function Counts () {
   return (
-    <main className={styles.main}>
+    <main id="Counts" className={styles.main}>
       <article>
         <Clock color="white" width="53px" height="53px"/>
         <span>1589</span>

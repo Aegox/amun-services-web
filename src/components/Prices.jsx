@@ -2,7 +2,7 @@ import styles from '../styles/Prices.module.css'
 
 function Prices () {
   return (
-    <main className={styles.main}>
+    <main id="Pricing" className={styles.main}>
       <header className={styles.head}>
         <h2>PRICING TABLE</h2>
         <div className={styles.line}></div>

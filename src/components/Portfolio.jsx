@@ -9,7 +9,7 @@ import Eye from '../icons/Eye.jsx'
 
 function Portfolio () {
   return (
-    <main className={styles.main}>
+    <main id="Works" className={styles.main}>
       <header className={styles.brand}>
         <h2>OUR PORTFOLIO</h2>
         <div className={styles.line}></div>
