@@ -51,7 +51,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px
+  gap: 10px;
+  opacity: 0
   
 }
 
@@ -94,4 +95,20 @@
   font-weight: normal;
   line-height: 25px;
   max-width: 80%
+}
+
+.animation {
+  animation: slideUp 3s ease;
+  opacity: 1;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

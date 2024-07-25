@@ -7,7 +7,11 @@
   overflow: hidden;
   background-image: url("../assets/counter.jpg");
   background-position: 5% 50%;
-  padding: 0px 140px
+  padding: 0px 140px;
+  background-attachment: fixed; /* Hace que la imagen de fondo se quede fija */
+  background-position: center; /* Posiciona la imagen en el centro */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover; 
 }
 
 .main article {

@@ -1,5 +1,4 @@
 import styles from '../styles/Counts.module.css'
-import counterBackground from '../assets/counter.jpg'
 import Clock from '../icons/Clock.jsx'
 import Briefcase from '../icons/Briefcase.jsx'
 import Heart from '../icons/Heart.jsx'

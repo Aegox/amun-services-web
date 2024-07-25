@@ -1,10 +1,10 @@
-import homeBackground from '../assets/home-background.jpg'
 import styles from '../styles/Home.module.css'
 
 function Home () {
   return (
-    <main id="Home" className={styles.container}>
-      <article>
+    <main id="Home" className={styles.main}>
+      <div className={styles.container}></div>
+      <article className={styles.home}>
         <span>
           Mate - Free Parallax Website Template
         </span>
@@ -15,7 +15,6 @@ function Home () {
           DOWNLOAD
         </button>
       </article>
-      <img src={homeBackground} alt=''/>
     </main>
   )
 }
