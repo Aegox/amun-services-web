@@ -56,7 +56,7 @@
   font-size: 15px;
 }
 
-.home button {
+.home a {
   padding: 12px 40px;
   border-radius: 20px;
   background-color: #76abae;
@@ -65,7 +65,8 @@
   color: white;
   margin: 25px 25px 0px 0px;
   transition: 0.3s background-color ease;
-  animation: slideUp 0.9s ease-in-out
+  animation: slideUp 0.9s ease-in-out;
+  text-decoration: none
 }
 
 @keyframes slideUp {
@@ -79,7 +80,7 @@
   }
 }
 
-.home button:hover {
+.home a:hover {
   background-color: #4e8c97;
   transition: 0.4s background-color ease;
   cursor: pointer
