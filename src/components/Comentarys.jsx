@@ -5,9 +5,20 @@ import customer3 from '../assets/customer3.jpg'
 import customer4 from '../assets/customer4.jpg'
 
 function Comentarys () {
+  const handleSlider = () => {
+    // Asegúrate de que el selector tenga un punto (.) al principio para indicar una clase
+    const item = document.querySelector(`.${styles.itemsList}`);
+    if (item) {
+      console.log(item);
+      item.classList.toggle(styles.move);
+    } else {
+      console.error('Element not found');
+    }
+  };
+
   return (
     <main id="Comentarys" className={styles.main}>
-      <ul>
+      <ul className={styles.itemsList}>
         <li>
           <div className={styles.containerImg}>
             <img src={customer1} alt=""/>
@@ -54,8 +65,8 @@ function Comentarys () {
         </li>
       </ul>
       <div className={styles.nav}>
-        <div className={styles.point}></div>
-        <div className={styles.point}></div>
+        <div onClick={()=> {handleSlider()}} className={styles.point}></div>
+        <div onClick={()=> {handleSlider()}} className={styles.point}></div>
       </div>
     </main>
   )

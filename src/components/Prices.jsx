@@ -1,13 +1,15 @@
-import styles from '../styles/Prices.module.css'
+import styles from "../styles/Prices.module.css";
 
-function Prices () {
+function Prices() {
   return (
     <main id="Pricing" className={styles.main}>
       <header className={styles.head}>
         <h2>PRICING TABLE</h2>
         <div className={styles.line}></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
-Lorem ipsum dolor sit amet, consectetur.</p>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+          dignissimos! Lorem ipsum dolor sit amet, consectetur.
+        </p>
       </header>
       <section className={styles.container}>
         <article>
@@ -16,9 +18,11 @@ Lorem ipsum dolor sit amet, consectetur.</p>
           </div>
           <div className={styles.description}>
             <span>$00</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
-Lorem ipsum dolor sit amet.</p> 
-          <button>GET PLAN</button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+              dignissimos! Lorem ipsum dolor sit amet.
+            </p>
+            <button>GET PLAN</button>
           </div>
         </article>
         <article>
@@ -27,9 +31,11 @@ Lorem ipsum dolor sit amet.</p>
           </div>
           <div className={styles.description}>
             <span>$3.99</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
-Lorem ipsum dolor sit amet.</p> 
-          <button>BUY NOW</button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+              dignissimos! Lorem ipsum dolor sit amet.
+            </p>
+            <button>BUY NOW</button>
           </div>
         </article>
         <article>
@@ -38,14 +44,16 @@ Lorem ipsum dolor sit amet.</p>
           </div>
           <div className={styles.description}>
             <span>$9.50</span>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
-Lorem ipsum dolor sit amet.</p> 
-          <button>BUY NOW</button>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
+              dignissimos! Lorem ipsum dolor sit amet.
+            </p>
+            <button>BUY NOW</button>
           </div>
         </article>
       </section>
     </main>
-  )
+  );
 }
 
-export default Prices
+export default Prices;
