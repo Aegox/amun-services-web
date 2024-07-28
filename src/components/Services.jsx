@@ -24,11 +24,10 @@ function Services() {
   return (
     <main id="Services" className={styles.main}>
       <article className={styles.brand}>
-        <h1>OUR SERVICES</h1>
+        <h1>NUESTROS SERVICIOS</h1>
         <div className={styles.line}></div>
         <h3>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
-          Lorem ipsum dolor sit amet, consectetur.
+          Servicios personalizados para potenciar tu presencia online y alcanzar tus objetivos digitales como desarrollo, consultoria y màs.
         </h3>
       </article>
       <section>
@@ -39,8 +38,10 @@ function Services() {
           <div className={styles.iconDiv}>
             <Pencil color="#000000" width="30px" height="30px" />
           </div>
-          <h3>Content Writing</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</h4>
+          <h3>Redacción de Contenidos</h3>
+          <h4>
+            La redacción de contenidos optimiza el desarrollo web, mejora el SEO y atrae visitantes.
+          </h4>
         </div>
         <div
           ref={(el) => elementRefs.current[1] = el}
@@ -49,8 +50,8 @@ function Services() {
           <div className={styles.iconDiv}>
             <Code color="#000000" width="30px" height="30px" />
           </div>
-          <h3>Web Development</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</h4>
+          <h3>Desarrollo Web</h3>
+          <h4>El desarrollo web crea sitios efectivos, optimizados y atractivos para mejorar la presencia online.</h4>
         </div>
         <div
           ref={(el) => elementRefs.current[2] = el}
@@ -59,8 +60,8 @@ function Services() {
           <div className={styles.iconDiv}>
             <Cool color="#000000" width="30px" height="30px" />
           </div>
-          <h3>Business Consultancy</h3>
-          <h4>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</h4>
+          <h3>Consultoría Empresarial</h3>
+          <h4>La consultoría empresarial proporciona estrategias clave para optimizar operaciones y alcanzar objetivos.</h4>
         </div>
       </section>
     </main>

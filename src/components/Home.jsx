@@ -14,7 +14,6 @@ function Home () {
       };
   }, []);
 
-
   return (
     <main id="Home" className={styles.main}>
       <div className={styles.container}></div>
@@ -23,8 +22,7 @@ function Home () {
           Innovación, Calidad y Servicio Excepcional
         </span>
         <span>
-          Creamos soluciones empresariales, paginas webs, y mucho mas.
-        </span>
+          Transformamos ideas en soluciones digitales innovadoras.        </span>
         <a href="#Services">
           CONTINUAR
         </a>

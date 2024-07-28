@@ -11,20 +11,19 @@ function Portfolio () {
   return (
     <main id="Works" className={styles.main}>
       <header className={styles.brand}>
-        <h2>OUR PORTFOLIO</h2>
+        <h2>NUESTRO PORTAFOLIO</h2>
         <div className={styles.line}></div>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos!
-Lorem ipsum dolor sit amet, consectetur.</p>
+        <p>Descubre nuestro portafolio y explora los proyectos exitosos que hemos desarrollado para nuestros clientes.</p>
       </header>
-      <section className={styles.body}>
-        <nav>
+     <section className={styles.body}>
+         {/*<nav>
           <ul>
             <li>ALL</li>
             <li>DESIGN</li>
             <li>DEVELOPMENT</li>
             <li>PRINT</li>
           </ul>
-        </nav>
+        </nav>*/}
         <div className={styles.container}>
           <article>
             <div className={styles.backItem}>
