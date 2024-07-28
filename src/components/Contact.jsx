@@ -7,7 +7,7 @@ import Linkedin from '../icons/Linkedin.jsx'
 
 function Contact () {
   return (
-    <main id="Contact" className={styles.main}>
+    <main id="Contacto" className={styles.main}>
       <div className={styles.container}>
       <section className={styles.information}>
         <h3>Contact With us</h3>
@@ -43,19 +43,19 @@ function Contact () {
       <footer className={styles.foot}>
         <ul>
           <li>
-            <a>Homepage</a>
+            <a>Pagina de Inicio</a>
           </li>
           <li>
-            <a>Services</a>
+            <a>Servicios</a>
           </li>
           <li>
-            <a>About Us</a>
+            <a>Acerca de nosotros</a>
           </li>
           <li>
-            <a>Contact</a>
+            <a>Contacto</a>
           </li>
         </ul>
-        <p>All copyrights reserved © 2022 - Designed & Developed by UIdeck</p>
+        <p>Todos los derechos reservados © 2024 - Dieñado y Desarrollado por Amun</p>
       </footer>
     </main>
     

@@ -15,7 +15,7 @@ function Home () {
   }, []);
 
   return (
-    <main id="Home" className={styles.main}>
+    <main id="Inicio" className={styles.main}>
       <div className={styles.container}></div>
       <article className={styles.home}>
         <span>

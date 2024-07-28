@@ -2,9 +2,9 @@ import styles from "../styles/Prices.module.css";
 
 function Prices() {
   return (
-    <main id="Pricing" className={styles.main}>
+    <main id="Precios" className={styles.main}>
       <header className={styles.head}>
-        <h2>PRICING TABLE</h2>
+        <h2>TABLA DE PRECIOS</h2>
         <div className={styles.line}></div>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
@@ -14,7 +14,7 @@ function Prices() {
       <section className={styles.container}>
         <article>
           <div className={styles.title}>
-            <h2>FREE</h2>
+            <h2>BASICO</h2>
           </div>
           <div className={styles.description}>
             <span>$00</span>
@@ -22,7 +22,7 @@ function Prices() {
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
               dignissimos! Lorem ipsum dolor sit amet.
             </p>
-            <button>GET PLAN</button>
+            <button>COMPRAR</button>
           </div>
         </article>
         <article>

@@ -22,7 +22,7 @@ function Services() {
   }, []); 
 
   return (
-    <main id="Services" className={styles.main}>
+    <main id="Servicios" className={styles.main}>
       <article className={styles.brand}>
         <h1>NUESTROS SERVICIOS</h1>
         <div className={styles.line}></div>
@@ -40,8 +40,7 @@ function Services() {
           </div>
           <h3>Redacción de Contenidos</h3>
           <h4>
-            La redacción de contenidos optimiza el desarrollo web, mejora el SEO y atrae visitantes.
-          </h4>
+            Nuestra redacción de contenidos optimiza el desarrollo web, mejora el SEO y atrae visitantes.          </h4>
         </div>
         <div
           ref={(el) => elementRefs.current[1] = el}
@@ -51,7 +50,7 @@ function Services() {
             <Code color="#000000" width="30px" height="30px" />
           </div>
           <h3>Desarrollo Web</h3>
-          <h4>El desarrollo web crea sitios efectivos, optimizados y atractivos para mejorar la presencia online.</h4>
+          <h4>Nuestro desarrollo web crea sitios efectivos, optimizados y atractivos para mejorar la presencia online.</h4>
         </div>
         <div
           ref={(el) => elementRefs.current[2] = el}
@@ -61,7 +60,7 @@ function Services() {
             <Cool color="#000000" width="30px" height="30px" />
           </div>
           <h3>Consultoría Empresarial</h3>
-          <h4>La consultoría empresarial proporciona estrategias clave para optimizar operaciones y alcanzar objetivos.</h4>
+          <h4>Nuestra consultoría empresarial proporciona estrategias clave para optimizar operaciones y alcanzar objetivos.</h4>
         </div>
       </section>
     </main>

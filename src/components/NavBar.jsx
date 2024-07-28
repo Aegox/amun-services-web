@@ -5,16 +5,16 @@ import _ from "lodash";
 
 function NavBar() {
   const sections = [
-    "Home",
-    "Services",
-    "Features",
-    "Works",
-    "Pricing",
-    "Team",
+    "Inicio",
+    "Servicios",
+    "Características",
+    "Proyectos",
+    "Precios",
+    "Equipo",
     "Blog",
-    "Contact",
+    "Contacto",
   ];
-  const [options, setOptions] = useState("Home");
+  const [options, setOptions] = useState("Inicio");
   const [locationNav, setLocationNav] = useState({ top: 0, bottom: 0 });
   const navRef = useRef(null);
   const linksRef = useRef([]);
@@ -49,14 +49,11 @@ function NavBar() {
     }
   }, []);
 
-  // Throttle the scroll and resize event handler
   const debouncedHandleLocation = useCallback(_.throttle(handleLocation, 100), [
     handleLocation,
   ]);
 
-  // Effect to add and clean up event listeners
   useEffect(() => {
-    // Call the handler initially
     handleLocation();
 
     const handleScroll = () => {
@@ -74,17 +71,16 @@ function NavBar() {
     };
   }, [debouncedHandleLocation, handleLocation]);
 
-  // Update the current section based on locationNav.top
   useEffect(() => {
     const sectionThresholds = [
-      { top: 0, bottom: 420, name: "Home" },
-      { top: 421, bottom: 950, name: "Services" },
-      { top: 950, bottom: 1550, name: "Features" },
-      { top: 1555, bottom: 2925, name: "Works" },
-      { top: 2925, bottom: 3778, name: "Pricing" },
-      { top: 4085, bottom: 4856, name: "Team" },
+      { top: 0, bottom: 420, name: "Inicio" },
+      { top: 421, bottom: 950, name: "Servicios" },
+      { top: 950, bottom: 1550, name: "Características" },
+      { top: 1555, bottom: 2925, name: "Proyectos" },
+      { top: 2925, bottom: 3778, name: "Precios" },
+      { top: 4085, bottom: 4856, name: "Equipo" },
       { top: 5263, bottom: 6043, name: "Blog" },
-      { top: 6043, bottom: Infinity, name: "Contact" },
+      { top: 6043, bottom: Infinity, name: "Contacto" },
     ];
 
     const currentSection = sectionThresholds.find(

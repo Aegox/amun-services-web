@@ -8,7 +8,7 @@ import Laptop from "../icons/Laptop.jsx";
 
 function Features() {
   return (
-    <main id="Features" className={styles.main}>
+    <main id="Características" className={styles.main}>
       <div className={styles.background}></div>
       <div className={styles.container}>
         <header>
