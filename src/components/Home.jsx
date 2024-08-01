@@ -23,7 +23,7 @@ function Home () {
         </span>
         <span>
           Transformamos ideas en soluciones digitales innovadoras.        </span>
-        <a href="#Services">
+        <a href="#Servicios">
           CONTINUAR
         </a>
       </article>

@@ -104,6 +104,12 @@
   transition: fill 0.3s ease
 }
 
+.icons li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .facebook:hover {
   background-color: #4867aa;
 

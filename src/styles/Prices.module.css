@@ -40,6 +40,7 @@
 .container {
   display: flex;
   justify-content: center;
+  width: 100%;
   margin: 0px 105px;
   padding: 0px 15px;
   gap: 30px;
@@ -51,7 +52,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 33.3%;
+  width: 26%;
   padding: 0px 0px 15px;
   border: 1px solid #f1f1f1;
   box-shadow: unset;
@@ -86,7 +87,7 @@
   font-size: 15px;
   text-align:center;
   line-height: 50px;
-  width: 70%
+  width: 80%
 }
 
 .description span {
@@ -96,18 +97,24 @@
 
 }
 
-.description button {
-  padding: 11px 40px;
+.description a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 40px;
   margin: 20px 0px;
   background-color: #4e8c97;
   border-radius: 30px;
   color: white;
   transition: all 0.3s ease;
   font-size: 14px;
-  border: unset
+  border: unset;
+  text-decoration: none;
+  height: 40px;
+  text-transform: uppercase
 }
 
-.description button:hover {
+.description a:hover {
   background-color: #3a6a73;
   color: #c7e2e4;
   cursor: pointer

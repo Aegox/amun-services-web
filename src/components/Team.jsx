@@ -10,11 +10,10 @@ function Team() {
   return (
     <main id="Equipo" className={styles.main}>
       <header className={styles.head}>
-        <h2>OUR TEAM</h2>
+        <h2>NUESTRO EQUIPO</h2>
         <div className={styles.line}></div>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat,
-          dignissimos! Lorem ipsum dolor sit amet, consectetur.
+         Conoce a nuestro equipo de expertos dedicados a ofrecer soluciones tecnológicas innovadoras y apoyo constante a clientes.
         </p>
       </header>
       <section className={styles.container}>
@@ -26,17 +25,23 @@ function Team() {
             <h4>Diego Amundaray</h4>
             <p>Fundador & CEO</p>
             <ul className={styles.icons}>
-              <li className={styles.facebook}>
+              {/*<li className={styles.facebook}>
                 <Facebook fill="#4e8c97" width="13px" height="13px" />
-              </li>
+              </li>*/}
               <li className={styles.x}>
-                <X fill="#4e8c97" width="13px" height="13px" />
+                <a href="https://x.com/aego_o" target="_blanck">
+                  <X fill="#4e8c97" width="13px" height="13px" />
+                </a>
               </li>
               <li className={styles.gmail}>
-                <Gmail fill="#4e8c97" width="18px" height="18px" />
+                <a href="mailto:diegoamundaray2017@gmail.com" target="_blanck">
+                  <Gmail fill="#4e8c97" width="18px" height="18px" />
+                </a>
               </li>
               <li className={styles.linkedin}>
+                <a href="https://www.linkedin.com/in/diego-amundaray-743862210/" target="_blanck">
                 <Linkedin fill="#4e8c97" width="13px" height="13px" />
+                </a>
               </li>
             </ul>
           </div>
@@ -49,17 +54,21 @@ function Team() {
             <h4>Luismar Barazarte</h4>
             <p>Directora de Diseño</p>
             <ul className={styles.icons}>
-              <li className={styles.facebook}>
+              {/*<li className={styles.facebook}>
                 <Facebook fill="#4e8c97" width="13px" height="13px" />
-              </li>
+              </li>*/}
               <li className={styles.x}>
                 <X fill="#4e8c97" width="13px" height="13px" />
               </li>
               <li className={styles.gmail}>
-                <Gmail fill="#4e8c97" width="18px" height="18px" />
+                <a href="mailto:luismarbarazarte@gmail.com" target="_blanck">
+                  <Gmail fill="#4e8c97" width="18px" height="18px" />
+                </a>
               </li>
               <li className={styles.linkedin}>
+                <a href="https://www.linkedin.com/in/luismar-barazarte-gimenez-2a826915a/" target="_blanck">
                 <Linkedin fill="#4e8c97" width="13px" height="13px" />
+                </a>
               </li>
             </ul>
           </div>

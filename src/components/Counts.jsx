@@ -10,22 +10,22 @@ function Counts () {
       <article>
         <Clock color="white" width="53px" height="53px"/>
         <span>1589</span>
-        <h4>Working Hours</h4>
+        <h4>Horas trabajadas</h4>
       </article>
       <article>
         <Briefcase color="white" width="53px" height="53px"/>
-        <span>699</span>
-        <h4>Completed Proyects</h4>
+        <span>10+</span>
+        <h4>Proyectos Completados</h4>
       </article>
       <article>
         <User fill="white" width="45px" height="45px"/>
-        <span>202</span>
-        <h4>No. of Clients</h4>
+        <span>20+</span>
+        <h4>No. de Clientes</h4>
       </article>
       <article>
         <Heart fill="white" width="45px" height="45px"/>
-        <span>1689</span>
-        <h4>Peoples Love</h4>
+        <span>1430</span>
+        <h4>Me gusta de Personas</h4>
       </article>
     </main>
   )
