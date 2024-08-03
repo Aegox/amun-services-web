@@ -55,7 +55,7 @@ function Contact () {
             <a>Contacto</a>
           </li>
         </ul>
-        <p>Todos los derechos reservados © 2024 - Dieñado y Desarrollado por Amun</p>
+        <p>Todos los derechos reservados © 2024 - Amun Services</p>
       </footer>
     </main>
     

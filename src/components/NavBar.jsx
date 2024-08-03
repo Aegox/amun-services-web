@@ -8,10 +8,10 @@ function NavBar() {
     "Inicio",
     "Servicios",
     "Características",
-    "Proyectos",
+    //"Proyectos",
     "Planes",
     "Equipo",
-    "Blog",
+    //"Blog",
     "Contacto",
   ];
   const [options, setOptions] = useState("Inicio");
@@ -76,11 +76,11 @@ function NavBar() {
       { top: 0, bottom: 420, name: "Inicio" },
       { top: 421, bottom: 950, name: "Servicios" },
       { top: 950, bottom: 1550, name: "Características" },
-      { top: 1555, bottom: 2925, name: "Proyectos" },
-      { top: 2925, bottom: 3778, name: "Planes" },
-      { top: 4085, bottom: 4856, name: "Equipo" },
-      { top: 5263, bottom: 6043, name: "Blog" },
-      { top: 6043, bottom: Infinity, name: "Contacto" },
+      //{ top: 1555, bottom: 2925, name: "Proyectos" },
+      { top: 1555, bottom: 2395, name: "Planes" },
+      { top: 2721, bottom: 3443, name: "Equipo" },
+      //{ top: 5263, bottom: 6043, name: "Blog" },
+      { top: 3893, bottom: Infinity, name: "Contacto" },
     ];
 
     const currentSection = sectionThresholds.find(

@@ -19,15 +19,11 @@ function App() {
     <main className={styles.main}>
       <NavBar/>
       <Home/>
-      <Services/>
-      <Features/>
-      <Portfolio/>
-      <Watch/>
-      <Prices/>
-      <Counts/>
       <Team/>
-      <Comentarys/>
-      <Blog/>
+      <Features/>
+      <Services/>
+      <Counts/>
+      <Prices/>
       <Contact/>
     </main>
   )

@@ -10,14 +10,18 @@ function Team() {
   return (
     <main id="Equipo" className={styles.main}>
       <header className={styles.head}>
-        <h2>NUESTRO EQUIPO</h2>
+        <h2>ACERCA DE NOSOTROS</h2>
         <div className={styles.line}></div>
-        <p>
-         Conoce a nuestro equipo de expertos dedicados a ofrecer soluciones tecnológicas innovadoras y apoyo constante a clientes.
-        </p>
       </header>
       <section className={styles.container}>
-        <article>
+        <article className={styles.containerText}>
+          <p>En Amun Services, nos dedicamos al <strong>desarrollo web</strong> y a crear soluciones tecnológicas innovadoras. Nuestro equipo de expertos en diseño, desarrollo y estrategia digital trabaja para transformar las ideas de nuestros clientes en realidades digitales impactantes, superando siempre las expectativas.</p>
+        <p>
+          Además del desarrollo web, miramos al futuro con la intención de <strong>crear software</strong> que resuelva problemas cotidianos y mejore la calidad de vida. Nos comprometemos a innovar constantemente, proporcionando herramientas que simplifiquen procesos y optimicen tareas diarias.</p>
+        <p>
+          Únete a nosotros en este viaje de innovación y crecimiento para construir un <strong>futuro digital</strong> más brillante y eficiente para todos.</p>
+        </article>
+        <article className={styles.person}>
           <div className={styles.image}>
             <img src={team1} alt="" />
           </div>
@@ -46,7 +50,7 @@ function Team() {
             </ul>
           </div>
         </article>
-        <article>
+        <article className={styles.person}>
           <div className={styles.image}>
             <img src={team3} alt="" />
           </div>
