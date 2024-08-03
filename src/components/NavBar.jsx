@@ -6,11 +6,11 @@ import _ from "lodash";
 function NavBar() {
   const sections = [
     "Inicio",
-    "Servicios",
+    "Acerca de nosotros",
     "Características",
     //"Proyectos",
+    "Servicios",
     "Planes",
-    "Equipo",
     //"Blog",
     "Contacto",
   ];
@@ -74,13 +74,13 @@ function NavBar() {
   useEffect(() => {
     const sectionThresholds = [
       { top: 0, bottom: 420, name: "Inicio" },
-      { top: 421, bottom: 950, name: "Servicios" },
-      { top: 950, bottom: 1550, name: "Características" },
+      { top: 421, bottom: 1143, name: "Acerca de nosotros" },
+      { top: 1143, bottom: 1730, name: "Características" },
       //{ top: 1555, bottom: 2925, name: "Proyectos" },
-      { top: 1555, bottom: 2395, name: "Planes" },
-      { top: 2721, bottom: 3443, name: "Equipo" },
+      { top: 1730, bottom: 2276, name: "Servicios" },
+      { top: 2602, bottom: 3442, name: "Planes" },
       //{ top: 5263, bottom: 6043, name: "Blog" },
-      { top: 3893, bottom: Infinity, name: "Contacto" },
+      { top: 3442, bottom: Infinity, name: "Contacto" },
     ];
 
     const currentSection = sectionThresholds.find(
@@ -109,7 +109,7 @@ function NavBar() {
                 className={
                   options === item ? styles.sectionActive : styles.section
                 }
-                href={`#${item}`}
+                href={ item !== "Acerca de nosotros" ? `#${item}` : "#Nosotros"}
               >
                 {item}
               </a>

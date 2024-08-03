@@ -1,4 +1,4 @@
-import styles from "../styles/Team.module.css";
+import styles from "../styles/AboutUs.module.css";
 import team1 from "../assets/team1.jpg";
 import team3 from "../assets/team3.jpg";
 import Facebook from "../icons/Facebook.jsx";
@@ -6,9 +6,9 @@ import X from "../icons/X.jsx";
 import Gmail from "../icons/Gmail.jsx";
 import Linkedin from "../icons/Linkedin.jsx";
 
-function Team() {
+function AboutUs() {
   return (
-    <main id="Equipo" className={styles.main}>
+    <main id="Nosotros" className={styles.main}>
       <header className={styles.head}>
         <h2>ACERCA DE NOSOTROS</h2>
         <div className={styles.line}></div>
@@ -82,4 +82,4 @@ function Team() {
   );
 }
 
-export default Team;
+export default AboutUs;

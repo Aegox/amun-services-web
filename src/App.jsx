@@ -7,7 +7,7 @@ import Portfolio from './components/Portfolio.jsx';
 import Watch from './components/Watch.jsx';
 import Prices from './components/Prices.jsx';
 import Counts from './components/Counts.jsx';
-import Team from './components/Team.jsx';
+import AboutUs from './components/AboutUs.jsx';
 import Comentarys from './components/Comentarys.jsx';
 import Blog from './components/Blog.jsx';
 import Contact from './components/Contact.jsx';
@@ -19,7 +19,7 @@ function App() {
     <main className={styles.main}>
       <NavBar/>
       <Home/>
-      <Team/>
+      <AboutUs/>
       <Features/>
       <Services/>
       <Counts/>
