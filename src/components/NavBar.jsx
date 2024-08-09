@@ -1,4 +1,5 @@
 import logo from "../assets/logo.png";
+import Lines from "../icons/Lines.jsx";
 import styles from "../styles/Navbar.module.css";
 import { useState, useEffect, useRef, useCallback } from "react";
 import _ from "lodash";
@@ -102,6 +103,8 @@ function NavBar() {
         className={`${styles["nav"]} ${locationNav.top > 0 ? styles["navScrolled2"] : ""}`}
       >
         <img src={logo} alt="" />
+        <Lines/>
+        
         <ul>
           {sections.map((item, index) => (
             <li key={index}>

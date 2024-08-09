@@ -11,6 +11,7 @@
 .head {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
   width: 100%;
   gap: 8px;
@@ -20,7 +21,9 @@
 .head h2 {
   font-size: 42px;
   letter-spacing: 1px;
-  color: #333
+  color: #333;
+  width: 100%;
+  text-align: center
 }
 
 .containerText {
@@ -154,4 +157,32 @@
 }
 
 
+@media screen and (max-width: 945px) {
+  .main {
+    height: 100%
+  }
+  .container {
+    flex-wrap: wrap;
+    padding: 0px 10px;
+    align-items: center
+  }
 
+  .head {
+    margin: unset;
+  }
+
+  .head h2 {
+    font-size: 1.4rem
+  }
+
+  .containerText {
+    width: 100%;
+    text-align:center;
+    padding: unset
+  }
+
+  .containerText p {
+    font-size: 0.9rem;
+  }
+  
+}
