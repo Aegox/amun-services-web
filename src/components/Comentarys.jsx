@@ -1,6 +1,6 @@
 import styles from '../styles/Comentarys.module.css'
 import customer1 from '../assets/kariñitos.jpg'
-import customer2 from '../assets/arias.jpg'
+//import customer2 from '../assets/arias.jpg'
 import customer3 from '../assets/customer3.jpg'
 import customer4 from '../assets/customer4.jpg'
 

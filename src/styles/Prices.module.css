@@ -19,7 +19,7 @@
 .head h2 {
   font-size: 42px;
   letter-spacing: 1px;
-  color: #333 
+  color: #333
 }
 
 .head p {
@@ -118,4 +118,32 @@
   background-color: #3a6a73;
   color: #c7e2e4;
   cursor: pointer
+}
+
+@media screen and (max-width:1300px) {
+    .main {
+        height: 100%;
+    }
+
+    .head {
+        padding: 10px;
+    }
+
+    .head h2 , .title h2 {
+        font-size: 1.4rem
+    }
+
+    .head p {
+        width: 100%
+    }
+
+
+    .container {
+        flex-direction: column;
+        align-items: center
+    }
+
+    .container article {
+        width: 100%
+    }
 }

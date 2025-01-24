@@ -5,7 +5,7 @@
   width: 100%;
   z-index: 102;
   transition: 0.3s background-color ease;
-  padding: 0px 80px
+  padding: 0px 200px
 }
 
 .nav {
@@ -25,7 +25,6 @@
   transition: 0.3s background-color ease
 }
 
-
 .navScrolled2 ul li a:visited , .navScrolled2 ul li a:active{
   color: white
 }
@@ -44,20 +43,15 @@
   transition: 0.3s all ease;
 }
 
-
 .section , .section:visited , .section:active{
   text-decoration: none;
   color: white;
-
 }
 
 .sectionActive {
   text-decoration: none;
   color: white;
-
 }
-
-
 
 .section:hover {
   color: #76abae;
@@ -75,15 +69,17 @@
   border-radius: 30px;
   padding: 6px 22px 6px 22px;
   transition: 0.3s  all ease
-
 }
 
 .sectionActive:hover {
   cursor: pointer
 }
 
-
 @media screen and (max-width: 600px) {
+  .show {
+    display: flex;
+  }
+
   .main {
     padding: 0px 25px;
     width: 100vw
@@ -97,13 +93,28 @@
   }
 
   .nav ul {
-    display: none
-      
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    padding: 50px;
+    margin: 0;
+    top:0;
+    left:0;
+    font-size: 1rem
+  }
+
+  .nav ul li a {
+    color: black
   }
 
   .nav img {
-    width: 28%;
-    height: auto
+    height: auto;
+    width: 28%
   }
 
   .nav svg {

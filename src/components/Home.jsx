@@ -16,17 +16,19 @@ function Home () {
 
   return (
     <main id="Inicio" className={styles.main}>
-      <div className={styles.container}></div>
-      <article className={styles.home}>
-        <span>
-          Innovación, Calidad y Servicio Excepcional
-        </span>
-        <span>
-          Transformamos ideas en soluciones digitales innovadoras.        </span>
-        <a href="#Servicios">
-          CONTINUAR
-        </a>
-      </article>
+    <div className={styles.container}>
+        <article className={styles.home}>
+            <span>
+                Innovación, Calidad y Servicio Excepcional
+            </span>
+            <span>
+                Transformamos ideas en soluciones digitales innovadoras.        </span>
+            <a href="#Servicios">
+                CONTINUAR
+            </a>
+        </article>
+    </div>
+
     </main>
   )
 }

@@ -91,7 +91,6 @@
   letter-spacing: 1px
 }
 
-
 .containerSvg h4 {
   text-align: center;
   font-weight: normal;
@@ -113,4 +112,32 @@
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+@media screen and (max-width:1300px) {
+    .main {
+        height: 100%
+    }
+
+    .brand {
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .brand h3 {
+        width: 100%
+    }
+
+    .brand h1 {
+        font-size: 1.4rem
+    }
+
+    .main section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px
+
+    }
 }

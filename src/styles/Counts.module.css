@@ -34,5 +34,18 @@
   font-weight: 400
 }
 
+@media screen and (max-width:1300px) {
+   .main {
+        flex-direction: column;
+        height: 100%;
+        padding: 100px 0px 100px 0px;
+        gap: 50px
+   }  
+
+   .main article span {
+        margin-top: 10px;
+   }
+}
+
 
 

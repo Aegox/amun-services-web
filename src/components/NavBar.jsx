@@ -47,8 +47,14 @@ function NavBar() {
         top: rect.top + scrollY,
         bottom: rect.bottom + scrollY,
       });
+     }
+    }, []);
+
+    const handleViewNav = () => {
+        const menuToggle = document.querySelector(styles["show"]);
+        const navbarMenu = document.querySelector("nav");
+        navbarMenu.classList.toggle("show");
     }
-  }, []);
 
   const debouncedHandleLocation = useCallback(_.throttle(handleLocation, 100), [
     handleLocation,
@@ -103,7 +109,7 @@ function NavBar() {
         className={`${styles["nav"]} ${locationNav.top > 0 ? styles["navScrolled2"] : ""}`}
       >
         <img src={logo} alt="" />
-        <Lines/>
+        <Lines onCLick={()=> handleViewNav} width="40px" height="40px"/>
         
         <ul>
           {sections.map((item, index) => (
