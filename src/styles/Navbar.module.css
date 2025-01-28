@@ -5,7 +5,7 @@
   width: 100%;
   z-index: 102;
   transition: 0.3s background-color ease;
-  padding: 0px 200px
+  padding: 0px 200px;
 }
 
 .nav {
@@ -15,40 +15,36 @@
   justify-content: space-between;
   align-items: center;
   color: white;
-  transition: 0.3s background-color ease
+  transition: 0.3s background-color ease;
 }
 
 .navScrolled {
   background-color: white;
   box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.06);
   color: black;
-  transition: 0.3s background-color ease
+  transition: 0.3s background-color ease;
 }
 
-.navScrolled2 ul li a:visited , .navScrolled2 ul li a:active{
-  color: white
-}
-
-.navScrolled .section:active , .navScrolled .section:visited , .navScrolled .section {
-  color: black
-}
-
-.nav ul {
-  display: flex;
-  list-style: none;
-}
-
-.section {
-  padding: 6px 22px 6px 22px;
-  transition: 0.3s all ease;
-}
-
-.section , .section:visited , .section:active{
-  text-decoration: none;
+.navScrolled2 ul li a:visited,
+.navScrolled2 ul li a:active {
   color: white;
 }
 
-.sectionActive {
+.navScrolled .section:active,
+.navScrolled .section:visited,
+.navScrolled .section {
+  color: black;
+}
+
+.navList {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.section {
+  padding: 6px 22px;
+  transition: 0.3s all ease;
   text-decoration: none;
   color: white;
 }
@@ -56,45 +52,41 @@
 .section:hover {
   color: #76abae;
   cursor: pointer;
-  transition: 0.3s all ease
-}
-
-.nav img {
-  height: 40px
 }
 
 .sectionActive {
   color: white;
   background-color: #4e8c97;
   border-radius: 30px;
-  padding: 6px 22px 6px 22px;
-  transition: 0.3s  all ease
+  padding: 6px 22px;
+  transition: 0.3s all ease;
 }
 
 .sectionActive:hover {
-  cursor: pointer
+  cursor: pointer;
 }
 
-@media screen and (max-width: 600px) {
-  .show {
-    display: flex;
-  }
+.nav img {
+  height: 40px;
+}
 
+/* Estilos para el menú responsive */
+@media screen and (max-width: 1300px) {
   .main {
     padding: 0px 25px;
-    width: 100vw
-  }
-  
-  .nav {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    height: 11vh
+    width: 100vw;
   }
 
-  .nav ul {
-    display: none;
-    position: absolute;
+  .nav {
+    height: 11vh;
+  }
+
+  .navList {
+    display: none; /* Ocultar el menú por defecto en móviles */
+  }
+
+  .navList.show {
+    display: flex; /* Mostrar el menú cuando está abierto */
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -103,25 +95,24 @@
     width: 100vw;
     padding: 50px;
     margin: 0;
-    top:0;
-    left:0;
-    font-size: 1rem
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 1rem;
   }
 
-  .nav ul li a {
-    color: black
+  .navList.show li a {
+    color: black; /* Cambiar el color del texto en móviles */
   }
 
   .nav img {
-    height: auto;
-    width: 28%
+    width: 28%;
   }
 
   .nav svg {
     width: 11%;
     height: auto;
     fill: white;
-    stroke: white
+    stroke: white;
   }
-  
 }
