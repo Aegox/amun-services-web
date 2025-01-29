@@ -117,7 +117,7 @@ function NavBar() {
       >
         <img src={logo} alt="" />
         {/* Ícono para abrir/cerrar el menú */}
-        <Lines onClick={handleViewNav} width="40px" height="40px" />
+        <Lines onClick={handleViewNav} width="40px" height="40px" color={`${locationNav.top > 0 ? "black" : "white"}`}/>
 
         {/* Lista de enlaces */}
         <ul className={`${styles.navList} ${
